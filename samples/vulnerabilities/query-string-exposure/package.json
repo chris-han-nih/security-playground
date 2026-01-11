@@ -1,0 +1,16 @@
+{
+  "name": "query-string-exposure",
+  "version": "1.0.0",
+  "description": "**CWE-598**: Use of GET Request Method With Sensitive Query Strings",
+  "main": "vuln-598-javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
