@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/hannamil/Workspace/chris/security-playground log --oneline -10)",
+      "Bash(tree:*)",
+      "Bash(git -C /Users/hannamil/Workspace/chris/security-playground status)",
+      "Bash(git -C /Users/hannamil/Workspace/chris/security-playground branch -a)",
+      "Bash(semgrep:*)",
+      "Bash(bandit:*)",
+      "Bash(npm audit:*)",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(git -C /Users/hannamil/Workspace/chris/security-playground log --oneline)",
+      "Bash(chmod:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "mysql",
+    "github"
+  ]
+}
